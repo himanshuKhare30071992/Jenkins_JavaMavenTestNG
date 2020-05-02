@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36535" started-at="2020-05-02T13:01:20Z" finished-at="2020-05-02T13:01:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36535" started-at="2020-05-02T13:01:20Z" finished-at="2020-05-02T13:01:57Z">
+      <class name="coronaCases.MH">
+        <test-method status="PASS" signature="positiveCases()[pri:0, instance:coronaCases.MH@12028586]" name="positiveCases" duration-ms="20941" started-at="2020-05-02T13:01:20Z" finished-at="2020-05-02T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCases -->
+      </class> <!-- coronaCases.MH -->
+      <class name="coronaCases.MP">
+        <test-method status="PASS" signature="positiveCases()[pri:0, instance:coronaCases.MP@17776a8]" name="positiveCases" duration-ms="15528" started-at="2020-05-02T13:01:41Z" finished-at="2020-05-02T13:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCases -->
+      </class> <!-- coronaCases.MP -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
