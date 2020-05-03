@@ -16,8 +16,8 @@ public class MH //extends CoronaTestBase
   {
 	  driver = CoronaTestBase.init(); 
 	  System.out.println("============MAHARASHTRA============");
-	  WebElement ele =	driver.findElement(By.xpath("//span[@class='actual__title-wrapper' and text()='Maharashtra']/../../..//span[@class='table__count-text'][1]"));
-	  String positiveCount = ele.getText();
+	  WebElement cityName =	driver.findElement(By.xpath("//span[@class='actual__title-wrapper' and text()='Maharashtra']/../../..//span[@class='table__count-text'][1]"));
+	  String positiveCount = cityName.getText();
 	  System.out.println(">>>>>>> Positive Corona Cases in MH  >>>>>>> "+positiveCount);
 	  driver.quit();
   }
